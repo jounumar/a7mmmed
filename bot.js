@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Namrod ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$nplay | Namrod Music`,"http://twitch.tv/Namrod")
+client.user.setGame(`$aplay | Script By : Namrod`,"http://twitch.tv/Namrod")
 client.user.setStatus("dnd")
 });
 
