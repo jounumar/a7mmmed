@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "$a";
+const prefix = "M";
 /////////////////////////
 ////////////////////////
 
@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت ($a)**')
+        .setDescription('**برفكس البوت (M)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : Namrod`);
+      console.log(`Arrogant .`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : Namrod ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Arrogant . ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$aplay | Script By : Namrod`,"http://twitch.tv/Namrod")
+client.user.setGame(`Nplay | Arrogant .")
 client.user.setStatus("dnd")
 });
 
