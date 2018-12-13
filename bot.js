@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 
 const Util = require('discord.js');
 
@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Arrogant .`);
+      console.log(`Desert Bot- Script By : Namrod`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : Arrogant . ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Namrod ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Nplay | Arrogant .")
+client.user.setGame(`Mplay | Arrogant .`,"http://twitch.tv/Arrogant")
 client.user.setStatus("dnd")
 });
 
